@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping Tags</title>
+</head>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: rgb(100, 101, 100);
+        }
+        header{
+            background-color: white;
+            margin: 10px;
+            padding: 10px;
+            
+        }
+        nav{
+            background-color: lightblue;
+            padding: 3px;
+            box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.349);
+        }
+
+        nav > a{
+            text-decoration: none;
+            color: white;
+            font-weight: bold;
+            
+
+        }
+
+        nav > a:hover{
+            text-decoration: underline;
+            
+        }
+        main{
+            background-color: white;
+            margin: 10px;
+            padding: 10px;
+            border-radius: 2px 10px;
+            box-shadow: 1px 1px 1px black;
+        }
+        footer{
+            background-color: black;
+            color: white;
+            margin: 0px;
+            text-align: center;
+            padding: 1px;
+        }
+        article{
+            background-color: rgb(181, 230, 230);
+            padding: 5px;
+
+        }
+        article > aside{
+            background-color: blue;
+        }
+    </style>
+<body>
+    <header>
+       <h1>Meu site</h1>
+       <nav>
+        <a href="#">Link</a>
+        <a href="#">Link</a>
+        <a href="#">Link</a>
+        <a href="#">Link</a>
+      </nav>
+    </header>
+
+    <main>
+        <section id="assuntos">
+
+        </section> 
+
+        <section id="noticias">
+          <article>
+            <h2>Noticias</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo, debitis neque beatae fugit, magnam aspernatur nisi vero id temporibus nam ex adipisci doloribus harum eos aperiam quos maiores? Iure, quas.</p>
+            <aside>
+               <p>Artigo escrito por Illgner</p> 
+            </aside>
+          </article>
+          <article>
+
+          </article>
+        </section>
+    </main>
+    <footer>
+      <p>Desenvolvido por Illgner</p>
+    </footer>
+
+</body>
+</html>
