@@ -16,13 +16,15 @@
 header{
   background-color: black;
   color: white;
-  padding: 20px;
   text-align: center;
+  height: 20vmax;
 }
 header>h1{
   font-family:var(--fonte01);
-  max: width 500px;;
+  font-size: 8vmax;
   font-weight: bold;
+  text-align:center;
+  
 }
 header>p>a{
   font-family: Verdana, Geneva, Tahoma, sans-serif;text-decoration:none;
@@ -36,12 +38,22 @@ main{
   font-family: var(--fonte02);
   text-align: left;
   font-weight: normal;
+  font-size: 3vmax;
+  width: 50vmax;
+  
 }
 div#imagem1{
  background-image: url(imagens/background001.jpg);
  color: white;
  height: 30vh;
- background-position: center center;
+ width: 100vmax;
+ background-position: center;
+}
+div#texto1{
+  font-size: 3vh;
+  background-color: rgba(0, 0, 0, 0.305);
+  height: 25vh;
+  width: 48%;
 }
 footer{
   font-family: Verdana, Geneva, Tahoma, sans-serif;
