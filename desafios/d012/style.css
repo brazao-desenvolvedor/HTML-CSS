@@ -38,22 +38,39 @@ main{
   font-family: var(--fonte02);
   text-align: left;
   font-weight: normal;
-  font-size: 3vmax;
+  font-size: 6vmin;
   width: 50vmax;
+  font-style: italic;
+  padding: 50px 30px 50px 30px;
   
 }
 div#imagem1{
- background-image: url(imagens/background001.jpg);
  color: white;
- height: 30vh;
+ height: 100vh;
  width: 100vmax;
- background-position: center;
+ background: url(imagens/background001.jpg) center fixed;
 }
-div#texto1{
-  font-size: 3vh;
-  background-color: rgba(0, 0, 0, 0.305);
-  height: 25vh;
-  width: 48%;
+p#texto1{
+  font-size: 6vh;
+  background-color: rgba(0, 0, 0, 0.521);
+  height: 90vh;
+  width: 46%;
+  font-style: italic;
+  padding: 5px;
+}
+div#imagem2{
+  color: white;
+  height: 130vh;
+  width: 100vmax;
+  background: url(imagens/background002.jpg) center fixed;
+}
+p#texto2{
+  font-size: 6vh;
+  background-color: rgba(0, 0, 0, 0.521);
+  height: 110vh;
+  width: 46%;
+  font-style: italic;
+  padding: 5px;
 }
 footer{
   font-family: Verdana, Geneva, Tahoma, sans-serif;
