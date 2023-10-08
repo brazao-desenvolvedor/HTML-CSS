@@ -1,0 +1,1 @@
+vc nao aprendeu php apache_child_terminate
